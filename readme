@@ -1,0 +1,17 @@
+Run all code from /project_practice
+[Run with bash on windows]
+If using Visual Studio Code, open two Git Bash terminal bottom right (the + symbol) Then run the following:
+[server:]
+./run_server.sh
+[client:]
+./run_client.sh
+
+[Run server]
+javac server/MainServer.java server/ServerChannelThread.java server/ServerCodes.java
+java server/MainServer [port_num]
+
+[Run client]
+javac client/Client.java
+java client/Client
+
+[server_ip] is printed out by server. Only use the numbers.
